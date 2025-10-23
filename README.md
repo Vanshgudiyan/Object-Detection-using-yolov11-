@@ -10,7 +10,7 @@ Reproducible pipeline with clear steps
 📂 Dataset
 Source: PPE Detection Dataset on Roboflow Universe
 
-Classes (3):
+# Classes (3):
 
 🪖 Protective Helmet
 🦺 Safety Vest
@@ -28,23 +28,20 @@ version = project.version(1)
 dataset = version.download("yolov11")
 ⚠️ Replace "YOUR_API_KEY" with your Roboflow key.
 
-🚀 How to Run
-# Clone repository
-git clone https://github.com/SudarshanG-coder/YOLO11-Custom-Training.git
-cd YOLO11-Custom-Training
+
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Open the notebook
-jupyter notebook YOLO11_Custom_training_for_Object_Detection.ipynb
-Results
+jupyter notebook Object Detection using YOLOv11
+# Results
 Example evaluation metrics (replace with your actual results):
 
-mAP@50: 0.87
-mAP@50-95: 0.74
-Precision: 0.82
-Recall: 0.79
+mAP@50: 0.924
+mAP@50-95: 0.636
+Precision: 0.91
+Recall: 0.924
  
 
 
@@ -54,7 +51,7 @@ End-to-end object detection workflow
 High accuracy on PPE detection task
 Easy dataset integration via Roboflow
 Fully reproducible with Colab & Jupyter Notebook
- Future Improvements
+# Future Improvements
 Experiment with YOLO11 variations (Nano, Small, Medium, Large)
 Hyperparameter tuning for better accuracy
 Real-time detection deployment with OpenCV
